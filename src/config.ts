@@ -3,7 +3,7 @@ import { enUS, frFR, zhCN, viVN, arSD } from '@mui/material/locale';
 
 // routes
 import { PATH_DASHBOARD } from "./routes/paths";
-import {ColorPresets, Preset} from "./utils/getColorPresets";
+import {ColorPresets} from "./utils/getColorPresets";
 
 export type DefaultSettings = {
   themeMode: string,

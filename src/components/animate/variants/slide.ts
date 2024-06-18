@@ -1,10 +1,7 @@
-//
 import { varTranEnter, varTranExit } from './transition';
 import {Props} from "./variants.types";
 
-// ----------------------------------------------------------------------
-
-export const varSlide = (props: Props) => {
+export const varSlide = (props?: Props) => {
   const distance = props?.distance || 160;
   const durationIn = props?.durationIn;
   const durationOut = props?.durationOut;

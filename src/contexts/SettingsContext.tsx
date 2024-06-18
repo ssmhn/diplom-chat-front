@@ -1,5 +1,5 @@
 // provider === component
-import {ChangeEvent, createContext, FC, PropsWithChildren, useEffect} from "react";
+import {createContext, FC, PropsWithChildren, useEffect} from "react";
 import {DefaultSettings, defaultSettings} from "../config";
 import {useLocalStorage} from "../hooks/useLocalStorage";
 import {

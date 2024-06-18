@@ -1,9 +1,7 @@
 import { varTranEnter, varTranExit } from './transition';
 import {Props} from "./variants.types";
 
-// ----------------------------------------------------------------------
-
-export const varFlip = (props: Props) => {
+export const varFlip = (props?: Props) => {
   const durationIn = props?.durationIn;
   const durationOut = props?.durationOut;
   const easeIn = props?.easeIn;

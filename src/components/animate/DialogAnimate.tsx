@@ -1,13 +1,8 @@
-import PropTypes from 'prop-types';
 import {m, AnimatePresence, Variants} from 'framer-motion';
-// @mui
 import {Dialog, Box, Paper, SxProps} from '@mui/material';
-//
 import { varFade } from './variants';
 import {FC, PropsWithChildren} from "react";
 import {Theme} from "@mui/material/styles";
-
-// ----------------------------------------------------------------------
 
 interface DialogAnimateProps extends PropsWithChildren {
   open: boolean

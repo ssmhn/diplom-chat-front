@@ -1,8 +1,4 @@
-import PropTypes from 'prop-types';
-// @mui
 import { Radio, FormControlLabel } from '@mui/material';
-
-// ----------------------------------------------------------------------
 
 export const BoxMask = ({ value }: {value: string}) => {
   return (

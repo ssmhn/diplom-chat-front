@@ -1,11 +1,6 @@
-import PropTypes from 'prop-types';
-import { m } from 'framer-motion';
-import {FC, forwardRef, ForwardRefExoticComponent, PropsWithChildren, RefAttributes, RefObject} from 'react';
-// @mui
 import {Box, BoxProps, IconButton, IconButtonProps} from '@mui/material';
-import {ColorEnum} from "../../enums/color.enum";
-
-// ----------------------------------------------------------------------
+import {FC} from "react";
+import {m} from "framer-motion";
 
 export const IconButtonAnimate: FC<IconButtonProps> = ({ children, size = 'medium', ref, ...other }) => (
   <AnimateWrap size={size}>

@@ -1,8 +1,6 @@
-// ----------------------------------------------------------------------
-
 import {Props} from "./variants.types";
 
-export const varBgColor = (props: Props) => {
+export const varBgColor = (props?: Props) => {
   const colors = props?.colors || ['#19dcea', '#b22cff'];
   const duration = props?.duration || 5;
   const ease = props?.ease || 'linear';
@@ -15,9 +13,7 @@ export const varBgColor = (props: Props) => {
   };
 };
 
-// ----------------------------------------------------------------------
-
-export const varBgKenburns = (props: Props) => {
+export const varBgKenburns = (props?: Props) => {
   const duration = props?.duration || 5;
   const ease = props?.ease || 'easeOut';
 
@@ -59,9 +55,7 @@ export const varBgKenburns = (props: Props) => {
   };
 };
 
-// ----------------------------------------------------------------------
-
-export const varBgPan = (props: Props) => {
+export const varBgPan = (props?: Props) => {
   const colors = props?.colors || ['#ee7752', '#e73c7e', '#23a6d5', '#23d5ab'];
   const duration = props?.duration || 5;
   const ease = props?.ease || 'linear';

@@ -1,12 +1,8 @@
-import PropTypes from 'prop-types';
 import { m } from 'framer-motion';
-// @mui
 import {Box, BoxProps} from '@mui/material';
-//
 import { varContainer } from './variants';
 import {FC} from "react";
 
-// ----------------------------------------------------------------------
 
 interface MotionContainerProps extends BoxProps {
   action: boolean,

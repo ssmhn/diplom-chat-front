@@ -1,12 +1,7 @@
-import PropTypes from 'prop-types';
 import {m, Variants} from 'framer-motion';
-// @mui
 import {Box, BoxProps} from '@mui/material';
-//
 import { varFade } from './variants';
 import {FC} from "react";
-
-// ----------------------------------------------------------------------
 
 interface TextAnimateProps extends BoxProps{
     text: string

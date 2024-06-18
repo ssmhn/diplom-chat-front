@@ -1,11 +1,7 @@
-import PropTypes from 'prop-types';
 import SimpleBarReact from 'simplebar-react';
-// @mui
 import {alpha, styled, Theme} from '@mui/material/styles';
 import {Box, SxProps} from '@mui/material';
 import {FC, PropsWithChildren} from "react";
-
-// ----------------------------------------------------------------------
 
 const RootStyle = styled('div')(() => ({
   flexGrow: 1,
